@@ -1,5 +1,7 @@
    # Hey this project is a satisfying cmatrix wannabe.
     
+    [**THE DEMO OF THE REPO**](https://ytinoooon.github.io/js_rain/index.html)
+    
     Why I created it?:
         - Because I was bored;
         - Because I wanted to learn;
