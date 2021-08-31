@@ -1,4 +1,4 @@
-   # Hey this project is satisfying cmatrix wannabe.
+   # Hey this project is a satisfying cmatrix wannabe.
     
     Why I created it?:
         - Because I was bored;
