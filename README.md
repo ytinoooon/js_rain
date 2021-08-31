@@ -13,26 +13,26 @@
     
    Links:
        1. the p5.js website and reference: 
-         - https://p5js.org/
-         - https://p5js.org/reference/
-       2. the video and the Youtube channel of Daniel Shiffman: 
-            - https://www.youtube.com/thecodingtrain
-            - https://www.youtube.com/watch?v=KkyIDI6rQJI&t=48s
-        3. the website of Daniel Shiffman: 
-            - https://thecodingtrain.com/
-            - https://shiffman.net/
+         * https://p5js.org/
+         * https://p5js.org/reference/
+       1. the video and the Youtube channel of Daniel Shiffman: 
+            * https://www.youtube.com/thecodingtrain
+            * https://www.youtube.com/watch?v=KkyIDI6rQJI&t=48s
+       1. the website of Daniel Shiffman: 
+            * https://thecodingtrain.com/
+            * https://shiffman.net/
 
 
    The time of makeing this project I am 15 years old and not very well experienced by any means in programing.
 
    The features I want and will try to add:
         1. A UI for chosing shapes and colors
-        2. Add shapes: 
-             - Triangles
-             - Quadrilaterals
-             - Pentagons
-             - Hexagons
-        3.  And some more color palets
+        1. Add shapes: 
+             * Triangles
+             * Quadrilaterals
+             * Pentagons
+             * Hexagons
+        1.  And some more color palets
             
    You actually can change the shapes and colors in the sketch.js
 
