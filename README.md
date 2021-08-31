@@ -1,12 +1,12 @@
    # Hey this project is a satisfying cmatrix wannabe.
     
-   [THE DEMO OF THE REPO <- click](https://ytinoooon.github.io/js_rain/index.html) 
+   [THE DEMO OF THE REPO   <-  click](https://ytinoooon.github.io/js_rain/index.html) 
     
-   1. Why I created it?:
-        - Because I was bored;
-        - Because I wanted to learn;
-        - Because I wanted to learn p5.js;
-        - Because I saw this video (https://www.youtube.com/watch?v=KkyIDI6rQJI&t=48s);
+   Why I created it?:
+      - Because I was bored;
+      - Because I wanted to learn;
+      - Because I wanted to learn p5.js;
+      - Because I saw this video (https://www.youtube.com/watch?v=KkyIDI6rQJI&t=48s);
     
    As I told you this project is made by the help of the javascript library called p5.js (https://p5js.org/).
    And I was inspired by Daniel Shiffman the creator of the Youtube channel and website called Coding Train
