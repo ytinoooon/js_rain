@@ -9,8 +9,8 @@ let g1 = 0.1;
 let g2 = 0.3;
 ///////THE CLASSES//////////
 class raindrop {
-    constructor(shape,color) {
-        this.line = new line_raindrop();
+    constructor(color) {
+        this.line = new line_raindrop(color);
     }
     
     fall() {

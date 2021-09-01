@@ -1,11 +1,12 @@
 let d1 = 12;
 let d2 = 200;
-class circle {
-    constructor() {
+class circle_raindrop {
+    constructor(color) {
         this.x = random(x1,x2); // the starting position 
         this.y = random(y1,y2); //      for the raindrop
         this.s = random(s1,s2); // speed
         this.c = random(color); // color
+        this.tempcolor = color;
         this.g = random(g1,g2); // gravitational stuff
         this.d = random(d1,d2);// diameter (circle)
     }
@@ -16,7 +17,7 @@ class circle {
             this.x = random(x1,x2); // the starting position 
             this.y = random(y1,y2); //      for the raindrop
             this.s = random(s1,s2); // speed
-            this.c = random(color); // color
+            this.c = random(this.tempcolor); // color
             this.g = random(g1,g2); // gravitational stuff
             this.d = random(d1,d2);// diameter (circle) 
         }

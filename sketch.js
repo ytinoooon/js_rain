@@ -1,11 +1,13 @@
 let drops = []; // List of all the drops
 let howmany = 350; // The amount of the raindrops
-let theshapes, thecolors;
+let theshapes;
+let thecolors = [colorful,colorful2,blacknwhite,blues,greens,reds,yellows,oranges,purples,pinks,strawberry_ice_cream,the_mist,greentea,chocolate_carrot,the_dance,advanture_time ];
 function setup() {
     createCanvas(1900,1060);
     // creating the drops
+    let thecolor = random(thecolors);
     for(var i = 0; i <= howmany-1; i++ ) {
-      drops[i] = new raindrop(color = blues); 
+      drops[i] = new raindrop(thecolor); 
     }    
   }   
 
