@@ -7,7 +7,7 @@ function setup() {
     // creating the drops
     let thecolor = random(thecolors);
     for(var i = 0; i <= howmany-1; i++ ) {
-      drops[i] = new raindrop(thecolor); 
+      drops[i] = new raindrop("line",thecolor); 
     }    
   }   
 

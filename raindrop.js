@@ -9,14 +9,25 @@ let g1 = 0.1;
 let g2 = 0.3;
 ///////THE CLASSES//////////
 class raindrop {
-    constructor(colors) {
-        this.line = new line_raindrop(colors);
+    constructor(shape,color) {
+    this.shape = shape;
+    if(this.shape == "line"){
+        this.raindrop = new line_raindrop(color);
+    } else if(this.shape == "circle") {
+        this.raindrop = new circle_raindrop(color);
+    } else if(this.shape == "elipse") {
+        this.raindrop = new elipse_raindrop(color);
+    } else if(this.shape == "ractangle") {
+        this.raindrop = new ractangle_raindrop(color);
+    } else if(this.shape == "square"){
+        this.raindrop = new square_raindrop(color);
+    }
     }
     fall() {
-        this.line.fall();
+        this.raindrop.fall();
     }
     show() {
-        this.line.show();
+        this.raindrop.show();
     }
 }
 
