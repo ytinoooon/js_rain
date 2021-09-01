@@ -23,11 +23,7 @@ class raindrop {
         this.raindrop = new square_raindrop(color);
     }
     }
-    fall() {
-        this.raindrop.fall();
-    }
-    show() {
-        this.raindrop.show();
-    }
+    fall() {this.raindrop.fall();}
+    show() {this.raindrop.show();}
 }
 
