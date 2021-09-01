@@ -12,11 +12,9 @@ class raindrop {
     constructor(colors) {
         this.line = new line_raindrop(colors);
     }
-    
     fall() {
         this.line.fall();
     }
-
     show() {
         this.line.show();
     }
