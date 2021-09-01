@@ -13,4 +13,4 @@ class refreshbtn {
         this.button.style("margin", "0 15px");
         this.button.mousePressed(a);
     }
-}
+} 
