@@ -3,12 +3,12 @@ let rw2 = 174;
 let rh1 = 14;
 let rh2 = 200;
 class ractangle_raindrop {
-    constructor(color) {
+    constructor(colors) {
         this.x = random(x1,x2); // the starting position 
         this.y = random(y1,y2); //      for the raindrop
         this.s = random(s1,s2); // speed
         this.c = random(color);
-        this.tempcolor = color; // color
+        this.tempcolor = colors; // color
         this.g = random(g1,g2);
         this.rw = random(rw1,rw2); // width (rect)
         this.rh = random(rh1,rh2);// height (rect)
