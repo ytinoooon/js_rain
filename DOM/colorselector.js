@@ -12,8 +12,10 @@ class colorselect {
         this.sel.option("oranges");
         this.sel.option("purples");
         this.sel.option("pinks");
-        this.sel.style('background-color',"#76B3FA");
-        this.sel.style('background-color',"#76B3FA");
+        this.sel.style("opacity","70%");
+        this.sel.style("outline", "none");
+        this.sel.style("box-shadow","none");
+        this.sel.style('background-color',"#bbbdbc");
         this.sel.style('border-radius',"50px");
         this.sel.style("border","none");
         this.sel.style("padding","10px 30px");
@@ -21,6 +23,5 @@ class colorselect {
         this.sel.style("text-decoration", "none");       
         this.sel.style("font-size", "1.45em")
         this.sel.style("margin", "0 15px");
-        //this.sel.changed(a);
     }
 } 

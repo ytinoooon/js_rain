@@ -1,6 +1,7 @@
 function submit() {
     let thecolor;
-    let color = selector.sel.value(); 
+    let theshape = shapeselector.ssel.value();
+    let color = colorselector.sel.value(); 
     if(color == "blues"){
         thecolor = blues;
     } else if(color == "colorful") {
@@ -22,8 +23,8 @@ function submit() {
     } else if(color == "pinks") {
       thecolor = pinks;
     }
-    console.log(color);
+    console.log("changes:\n" + "   color: " + color + "\n" + "   shape: " + theshape);
     for(var i = 0; i <= howmany-1; i++ ) {
-      drops[i] = new raindrop("line",thecolor); 
+      drops[i] = new raindrop(theshape,thecolor); 
     }
 }    

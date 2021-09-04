@@ -6,7 +6,8 @@ let rbtn;
 function setup() {
     createCanvas(1900,1060);
     // creating the drops
-    selector = new colorselect();   
+    colorselector = new colorselect();   
+    shapeselector = new shapeselect();
     submitbtn = new submitbtn(submit);
     let thecolor = random(thecolors);
     for(var i = 0; i <= howmany-1; i++ ) {
@@ -20,6 +21,4 @@ function draw() {
       drops[i].show();
       drops[i].fall();
   }
-    
-
 }

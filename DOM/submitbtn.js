@@ -2,8 +2,10 @@ class submitbtn {
     constructor(a) {
         this.button = createButton("submit",);
         this.button.position(210,910);
-        this.button.style('background-color',"#76B3FA");
-        this.button.style('background-color',"#76B3FA");
+        this.button.style("opacity","70%");
+        this.button.style("outline", "none");
+        this.button.style("box-shadow","none");
+        this.button.style('background-color',"#bbbdbc");
         this.button.style('border-radius',"50px");
         this.button.style("border","none");
         this.button.style("padding","10px 30px");
