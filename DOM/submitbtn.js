@@ -1,7 +1,7 @@
-class refreshbtn {
+class submitbtn {
     constructor(a) {
-        this.button = createButton("change the color",);
-        this.button.position(0,920);
+        this.button = createButton("submit",);
+        this.button.position(210,910);
         this.button.style('background-color',"#76B3FA");
         this.button.style('background-color',"#76B3FA");
         this.button.style('border-radius',"50px");
@@ -13,4 +13,5 @@ class refreshbtn {
         this.button.style("margin", "0 15px");
         this.button.mousePressed(a);
     }
+
 } 
