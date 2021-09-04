@@ -27,7 +27,9 @@
     The time of makeing this project I am 15 years old and not very well experienced by any means in programing.
 
     The features I want and will try to add:
-        -   A UI for chosing shapes and colors
+        -   A UI for chosing shapes and colors (done)
+        -   Make shapes more apealing
+        -   Compatible other screens
         -   Add shapes: 
             - Triangles
             - Quadrilaterals

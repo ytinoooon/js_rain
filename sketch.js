@@ -6,23 +6,19 @@ let rbtn;
 function setup() {
     createCanvas(1900,1060);
     // creating the drops
+    colorselector = new colorselect();   
+    shapeselector = new shapeselect();
+    submitbtn = new submitbtn(submit);
     let thecolor = random(thecolors);
     for(var i = 0; i <= howmany-1; i++ ) {
       drops[i] = new raindrop("line",thecolor); 
     }
-    rbtn = new refreshbtn(a);    
-  }   
-  function a() {
-    location.reload();
-  }
-  function draw() {
-    background(61); 
-    //makeing them do stuff
-    for(var i = 0; i <= howmany-1; i++ ) {
+}     
+function draw() {
+  background(61); 
+  //makeing them do stuff
+  for(var i = 0; i <= howmany-1; i++ ) {
       drops[i].show();
       drops[i].fall();
-    }
-    
-    
-
+  }
 }
