@@ -1,10 +1,17 @@
 class colorselect {
-    constructor(a) {
+    constructor() {
         this.sel = createSelect();
         this.sel.position(0,910);
         this.sel.option("blues");
         this.sel.option("colorful");
+        this.sel.option("colorful2");
         this.sel.option("blacknwhite");
+        this.sel.option("greens");
+        this.sel.option("reds");
+        this.sel.option("yellows");
+        this.sel.option("oranges");
+        this.sel.option("purples");
+        this.sel.option("pinks");
         this.sel.style('background-color',"#76B3FA");
         this.sel.style('background-color',"#76B3FA");
         this.sel.style('border-radius',"50px");
@@ -14,7 +21,6 @@ class colorselect {
         this.sel.style("text-decoration", "none");       
         this.sel.style("font-size", "1.45em")
         this.sel.style("margin", "0 15px");
-        this.color = this.sel.value();
-        this.sel.changed(a);
+        //this.sel.changed(a);
     }
 } 
