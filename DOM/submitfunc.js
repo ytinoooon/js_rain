@@ -22,6 +22,18 @@ function submit() {
       thecolor = purples;
     } else if(color == "pinks") {
       thecolor = pinks;
+    } else if(color == "strawberry ice cream") {
+      thecolor = strawberry_ice_cream;
+    } else if(color == "the mist") {
+      thecolor = the_mist;
+    } else if(color == "greentea") {
+      thecolor = greentea;
+    } else if(color == "chocolate carrot") {
+      thecolor = chocolate_carrot;
+    } else if(color == "the dance") {
+      thecolor = the_dance;
+    }  else if(color == "advanture time") {
+      thecolor = advanture_time;
     }
     console.log("changes:\n" + "   color: " + color + "\n" + "   shape: " + theshape);
     for(var i = 0; i <= howmany-1; i++ ) {

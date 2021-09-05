@@ -12,6 +12,12 @@ class colorselect {
         this.sel.option("oranges");
         this.sel.option("purples");
         this.sel.option("pinks");
+        this.sel.option("strawberry ice cream");
+        this.sel.option("the mist");
+        this.sel.option("greentea");
+        this.sel.option("chocolate carrot");
+        this.sel.option("the dance");
+        this.sel.option("advanture time");
         this.sel.style("opacity","70%");
         this.sel.style("outline", "none");
         this.sel.style("box-shadow","none");
