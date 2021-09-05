@@ -34,6 +34,8 @@ function submit() {
       thecolor = the_dance;
     }  else if(color == "advanture time") {
       thecolor = advanture_time;
+    } else if(color == "mix") {
+      thecolor = mix;
     }
     console.log("changes:\n" + "   color: " + color + "\n" + "   shape: " + theshape);
     for(var i = 0; i <= howmany-1; i++ ) {

@@ -18,6 +18,7 @@ class colorselect {
         this.sel.option("chocolate carrot");
         this.sel.option("the dance");
         this.sel.option("advanture time");
+        this.sel.option("mix");
         this.sel.style("opacity","70%");
         this.sel.style("outline", "none");
         this.sel.style("box-shadow","none");
