@@ -34,4 +34,6 @@
   - Pentagons
   - Hexagons
 - [ ] Add some more color palets
+- [ ] Explain the code in the readme
 
+ 
