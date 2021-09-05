@@ -17,7 +17,7 @@ class raindrop {
         this.raindrop = new circle_raindrop(color);
     } else if(this.shape == "elipse") {
         this.raindrop = new elipse_raindrop(color);
-    } else if(this.shape == "ractangle") {
+    } else if(this.shape == "rectangle") {
         this.raindrop = new ractangle_raindrop(color);
     } else if(this.shape == "square"){
         this.raindrop = new square_raindrop(color);

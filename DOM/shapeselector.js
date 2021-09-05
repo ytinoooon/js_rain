@@ -1,10 +1,10 @@
 class shapeselect {
-    constructor() {
+    constructor(a) {
         this.ssel = createSelect();
-        this.ssel.position(0,855);
+        this.ssel.position(0,910);
         this.ssel.option("line");
         this.ssel.option("circle");
-        this.ssel.option("ractangle");
+        this.ssel.option("rectangle");
         this.ssel.style("opacity","70%");
         this.ssel.style("outline", "none");
         this.ssel.style("box-shadow","none");
@@ -16,5 +16,6 @@ class shapeselect {
         this.ssel.style("text-decoration", "none");       
         this.ssel.style("font-size", "1.45em")
         this.ssel.style("margin", "0 15px");
+        this.ssel.changed(a);
     }
 } 

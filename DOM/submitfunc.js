@@ -3,7 +3,7 @@ function submit() {
     let theshape = shapeselector.ssel.value();
     let color = colorselector.sel.value(); 
     if(color == "blues"){
-        thecolor = blues;
+      thecolor = blues;
     } else if(color == "colorful") {
       thecolor = colorful;
     } else if(color == "blacknwhite") {

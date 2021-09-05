@@ -1,7 +1,7 @@
 class colorselect {
-    constructor() {
+    constructor(a) {
         this.sel = createSelect();
-        this.sel.position(0,910);
+        this.sel.position(190,910);
         this.sel.option("blues");
         this.sel.option("colorful");
         this.sel.option("colorful2");
@@ -23,5 +23,6 @@ class colorselect {
         this.sel.style("text-decoration", "none");       
         this.sel.style("font-size", "1.45em")
         this.sel.style("margin", "0 15px");
+        this.sel.changed(a);
     }
 } 
