@@ -26,12 +26,12 @@
 ---
 6. The features I want and will try to add:
   - [x] A UI for chosing shapes and colors 
-  - [] Make shapes more apealing
-  - [] Compatible other screens
-  - [] Add shapes: 
+  - [ ] Make shapes more apealing
+  - [ ] Compatible other screens
+  - [ ] Add shapes: 
     - Triangles
     - Quadrilaterals
     - Pentagons
     - Hexagons
-  - [] Add some more color palets
+  - [ ] Add some more color palets
 
