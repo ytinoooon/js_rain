@@ -25,13 +25,13 @@
 5. The time of makeing this project I am 15 years old and not very well experienced by any means in programing.
 ---
 6. The features I want and will try to add:
-  -[x] A UI for chosing shapes and colors 
-  -[] Make shapes more apealing
-  -[] Compatible other screens
-  -[] Add shapes: 
+  - [x] A UI for chosing shapes and colors 
+  - [] Make shapes more apealing
+  - [] Compatible other screens
+  - [] Add shapes: 
     - Triangles
     - Quadrilaterals
     - Pentagons
     - Hexagons
-  -[] Add some more color palets
+  - [] Add some more color palets
 
