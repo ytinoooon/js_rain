@@ -2,7 +2,7 @@ let rw1 = 13;
 let rw2 = 174;
 let rh1 = 14;
 let rh2 = 200;
-class ractangle_raindrop {
+class rectangle_raindrop {
     constructor(colors) {
         this.x = random(x1,x2); // the starting position 
         this.y = random(y1,y2); //      for the raindrop
